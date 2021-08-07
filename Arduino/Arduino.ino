@@ -6,11 +6,15 @@ int CNT2 = 0;
 void setup()
 {
   TimerOne.attachInterrupt( Timer_ISR );
-  TimerOne.tal
+  TimerOne.Initalize
   
 
 }
 
+void Timer_ISR ()
+{
+  
+}
 void loop()
 {
  
